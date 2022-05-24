@@ -23,8 +23,6 @@ Java Standard Library
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Java GUI creation and manipulation
+- Java http requests and API calls
+- Java concurency/async functionality
