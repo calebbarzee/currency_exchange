@@ -19,7 +19,7 @@ Java Standard Library
 # Useful Websites
 
 - [Oracle Java Documentation](https://docs.oracle.com/en/java/javase/18/)
-- [Web Site Name](http://url.link.goes.here)
+- [w3 Schools Java Tutorial](https://www.w3schools.com/java/)
 
 # Future Work
 
