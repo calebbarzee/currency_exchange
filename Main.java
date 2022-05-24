@@ -2,34 +2,32 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    ArrayList employeeList = new ArrayList();
     //    executes the initialization of employee class and stores objects in list
     public static void main(String[] args) {
-            Main mainObj = new Main();
-            employeeInput(mainObj);
+        ArrayList<Employee> employeeList = new ArrayList<>();
+        employeeInput(employeeList);
+        employeeOutput(employeeList);
     }
-    public static void employeeInput(mainObj) {
+    public static void employeeInput(ArrayList<Employee> employeeList) {
         Scanner inputObj = new Scanner(System.in);
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 3; i++) {
 
             // name input
-            System.out.println("Enter Employee Name:");
-            String name = inputObj.nextLine();
-
+            System.out.println("Enter Employee Name, Age, Salary: ");
+            String name = inputObj.next();
             // age input
-            System.out.println("Enter Employee Age:");
             int age = inputObj.nextInt();
-
             // salary input
-            System.out.println("Enter Employee Salary:");
             double salary = inputObj.nextDouble();
+
+            employeeList.add(new Employee(name, age, salary));
         }
     }
-    public static void employeeOutput(employeeList) {
+    public static void employeeOutput(ArrayList<Employee> employeeList) {
         // Output input by user
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
-        System.out.println("Salary: " + salary);
+        for (Employee empObj : employeeList) {
+            System.out.println(empObj.toString());
+        }
     }
 }

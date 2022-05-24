@@ -5,10 +5,7 @@ are to get online data and interact with the user via a GUI.
 
 My purpose in writing this software is to learn some Java fundamentals.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough
-of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/Fy0g0tZBEFo)
 
 # Development Environment
 
@@ -16,13 +13,12 @@ I downloaded and installed the Java JDK environment along with Visual Studio Cod
 Then I worked in the Visual Studio Code IDE to write the program.
 
 Java
-Java Libraries: {Describe the programming language that you used and any libraries.}
+
+Java Standard Library
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
+- [Oracle Java Documentation](https://docs.oracle.com/en/java/javase/18/)
 - [Web Site Name](http://url.link.goes.here)
 
 # Future Work
